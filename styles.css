@@ -1,28 +1,28 @@
-*{
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+:root{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size: 1em;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: cornflowerblue;
-	display: table;
-	width: 260px;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    display: table;
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav li {
-	display: block;
-	font-size: 20px;
-	color: #fff;
-	position: relative;
-	padding: 25px 0 25px 25px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    padding: 25px 0 25px 25px;
 }
 
 body {
@@ -30,15 +30,14 @@ body {
 }
 
 header {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 main {
-	position: absolute;
-	margin: 10px 10px 10px 250px;
-	padding: 50px;
-
+    position: absolute;
+    margin: 2rem, 2rem, 2rem, 50rem;
+    padding: 5rem;
 }
 
 h1 {
@@ -46,9 +45,7 @@ h1 {
 }
 
 #first_image {
-	height: 500px;
-	
-
+    height: 100rem;
 }
 
 p {
@@ -56,14 +53,14 @@ p {
 }
 
 footer {
-	position: absolute;
-	margin: 100px 0 0 0;
-	bottom: -300px;
-	width: 100%;
-	height: 2.5rem;
-	background-color: lightgray;
-	text-align: center;
-	padding: 40px;
+    position: absolute;
+    margin: 20rem 0 0 0;
+    bottom: -50rem;
+    width: 100%;
+    height: 1rem;
+    background-color: lightgray;
+    text-align: center;
+    padding: 2rem;
 }
 
 a:hover {
