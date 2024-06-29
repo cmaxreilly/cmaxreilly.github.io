@@ -24,9 +24,16 @@ nav li {
     position: relative;
     padding: 25px 0 25px 25px;
 }
+.background::before {
+    content: "";
+    background-image: url('../images/taylor_lake_sunrise.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
 
 body {
-    background-color: whitesmoke;
+
 }
 
 header {
