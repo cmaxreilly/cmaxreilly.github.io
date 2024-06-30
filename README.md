@@ -12,9 +12,16 @@ website.
 - Github Pages
 
 ## TODO
+### Content
+- [ ] Add photographs
+- [ ] Write blog posts x 5
+    - Shooting for 5-10 minute reads.
+    - 2000-2500 words without visuals
+- [ ] Get Headshots taken
+- [ ] Ask people for testimonials
+### Technology
 - [x] Refactor website with js navbar
 - [ ] Finish JS class on codecademy.
-- [ ] Add photographs
 - [ ] Figure out contact page
-- [ ] Write blog posts
 - [ ] Add C projects to secondary repositories so that they can stand out more.
+- [ ] Make media dropdown menu
