@@ -1,29 +1,36 @@
-:root{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+:root {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: calc(0.9em + 1vw);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: cornflowerblue;
-    display: table;
-    width: 260px;
-    height: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 nav li {
-    display: block;
-    font-size: 20px;
-    color: #fff;
-    position: relative;
-    padding: 25px 0 25px 25px;
+    display: inline-block;
 }
+
 .background::before {
     content: "";
     background-image: url('../images/taylor_lake_sunrise.jpeg');

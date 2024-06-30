@@ -7,8 +7,19 @@
 
     <head>
         <link href="css/styles.css" rel ="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body >
+        <div id="nav-placeholder"></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch("nav.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("nav-placeholder").innerHTML = data;
+                });
+            });
+        </script>
         <script src="synth.js"></script>
         <button id="start">Start</button>
         <button id="stop">Stop</button>

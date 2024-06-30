@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 
-<html>
-    <title>
-        Max Reilly's Website
-    </title>
-
+<html lang="en">
     <head>
-        <link href="css/styles.css" rel ="stylesheet" type="text/css" />
+        <title>C. Maxwell Reilly | Composer | Pianist | Teacher</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body >
         <script>console.log("Hello world!")</script>
+        <div id="nav-placeholder"></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch("nav.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("nav-placeholder").innerHTML = data;
+                });
+            });
+        </script>
         <main>
             <article>
                 <p>
@@ -19,12 +27,6 @@
                 various projects.
                 </p>
             </article>
-            <a href="recordings.html">Recordings<br><br></a>
-            <a href="pdfs/resume.pdf">Resume<br><br> </a>
-            <a href="pdfs/cv.pdf">Ciricculum Vitae<br><br></a>
-            <a href="https://github.com/cmaxreilly">Code<br><br></a>
-            <a href="pdfs/rates.pdf">Rates<br><br></a>
-            <a href="blog.html">Blog<br><br></a>
             </p>
 
 
