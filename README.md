@@ -12,5 +12,9 @@ website.
 - Github Pages
 
 ## TODO
-- [ ] Refactor website with js navbar
+- [x] Refactor website with js navbar
 - [ ] Finish JS class on codecademy.
+- [ ] Add photographs
+- [ ] Figure out contact page
+- [ ] Write blog posts
+- [ ] Add C projects to secondary repositories so that they can stand out more.
