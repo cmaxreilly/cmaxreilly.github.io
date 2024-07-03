@@ -7,12 +7,13 @@ website.
 - HTML
 - CSS
 - Javascript
-- Vim
+- Neovim
 - VS Code
 - Github Pages
 
 ## TODO
 ### Content
+- [ ] Write Homepage
 - [ ] Add photographs
 - [ ] Write blog posts x 5
     - Shooting for 5-10 minute reads.
@@ -23,7 +24,7 @@ website.
 - [x] Refactor website with js navbar
 - [ ] Finish JS class on codecademy.
 - [ ] Fix navbar on mobile.
-- [ ] fix broken teaching page.
-- [ ] Figure out contact page
+- [x] fix broken teaching page.
+- [x] Figure out contact page
 - [ ] Add C projects to secondary repositories so that they can stand out more.
 - [ ] Make media dropdown menu
