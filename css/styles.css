@@ -103,6 +103,16 @@ h1 {
     color: black;
 }
 
+/* Images */
+/* Homepage Image */
+
+.testimonials {
+    text-align: center;
+}
+.home-image {
+    max-width: 100%;
+}
+
 #first_image {
     height: 100rem;
 }

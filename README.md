@@ -13,13 +13,19 @@ website.
 
 ## TODO
 ### Content
-- [ ] Write Homepage
-- [ ] Add photographs
+- [x] Write Homepage
 - [ ] Write blog posts x 5
     - Shooting for 5-10 minute reads.
     - 2000-2500 words without visuals
 - [ ] Get Headshots taken
 - [ ] Ask people for testimonials
+- [ ] Make list of upcoming engagements
+- [ ] Make list of previous engagments
+### Design
+- [ ] Add shadow to Navbar
+- [ ] Fix coloring in the dropdown menu
+- [ ] Add photographs
+- [ ] Add padding to all paragraphs
 ### Technology
 - [x] Refactor website with js navbar
 - [ ] Finish JS class on codecademy.
