@@ -22,10 +22,10 @@ website.
 - [ ] Make list of upcoming engagements
 - [ ] Make list of previous engagments
 ### Design
-- [ ] Add shadow to Navbar
-- [ ] Fix coloring in the dropdown menu
+- [x] Add shadow to Navbar
+- [x] Fix coloring in the dropdown menu
 - [ ] Add photographs
-- [ ] Add padding to all paragraphs
+- [x] Add padding to all paragraphs
 ### Technology
 - [x] Refactor website with js navbar
 - [ ] Finish JS class on codecademy.
