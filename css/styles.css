@@ -1,30 +1,18 @@
 /* Global rules */
 :root {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: calc(0.5em + 1vw);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-size: calc(0.4em + 1vw);
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 main {
     position: absolute;
     margin: 2rem, 2rem, 2rem, 50rem;
     padding: 2rem;
-}
-
-/* Potentially deprecated? */
-header {
-    width: 100%;
-    text-align: center;
 }
 
 /* GENERAL */
@@ -112,13 +100,16 @@ nav li {
     position: absolute;
 }
 
-/* IMAGES */
-/* Homepage Image */
-
+/* HOME PAGE */
 .home-image {
     max-width: 60%;
     float: right;
     
+}
+
+/* PHOTOS */
+.photos-image {
+    max-width: 40%;
 }
 
 /* Testimonials styling. */
