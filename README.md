@@ -17,8 +17,7 @@ website.
 - [ ] Write blog posts x 5
     - Shooting for 5-10 minute reads.
     - 2000-2500 words without visuals
-- [ ] Get Headshots taken
-- [ ] Ask people for testimonials
+- [x] Get Headshots taken
 - [ ] Make list of upcoming engagements
 - [ ] Make list of previous engagments
 ### Design
